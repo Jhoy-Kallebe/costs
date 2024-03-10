@@ -3,7 +3,7 @@ import styles from './pages.module.css'
 function Contact() {
     return (
         <div className={styles.container}>
-            Contact
+            <h1>Contato</h1>
         </div>
     )
 }
