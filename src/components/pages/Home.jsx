@@ -1,6 +1,8 @@
+import styles from './pages.module.css'
+
 function Home() {
     return (
-        <div>Home</div>
+        <div className={styles.container}>Home</div>
     )
 }
 

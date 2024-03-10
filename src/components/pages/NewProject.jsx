@@ -1,6 +1,8 @@
+import styles from './pages.module.css'
+
 function NewProject() {
     return (
-        <div>NewProject</div>
+        <div className={styles.container}>NewProject</div>
     )
 }
 

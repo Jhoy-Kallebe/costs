@@ -1,6 +1,8 @@
+import styles from './pages.module.css'
+
 function Contact() {
     return (
-        <div>
+        <div className={styles.container}>
             Contact
         </div>
     )
