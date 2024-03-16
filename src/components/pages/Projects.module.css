@@ -2,6 +2,23 @@
     width: 1200px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     margin: 0 auto; 
     min-height: 75%;
+}
+
+.start {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.project_container {
+    padding: 2em;
+}
+
+.title_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
 }
