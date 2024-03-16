@@ -4,6 +4,7 @@
     border-radius: 5px;
     width: 24%;
     margin: .5%;
+    max-height: 250px;
 }
 
 .project_card h4 {

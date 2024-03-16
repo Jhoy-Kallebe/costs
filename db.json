@@ -2,14 +2,32 @@
   "projects": [
     {
       "id": "90b7",
-      "name": "Novo Projeto",
-      "budget": "5000",
+      "name": "Analisar Desempenho",
+      "budget": "1800",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "4",
+        "name": "Planejamento"
       },
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "57af",
+      "name": "Adcionar Botão",
+      "budget": "7000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 2000,
+      "services": [
+        {
+          "name": "Contratar dev",
+          "cost": "2000",
+          "description": "Ele implementara o botão",
+          "id": "fa05ddd7-e1dd-4f52-90e0-293ce6929fbc"
+        }
+      ]
     }
   ],
   "categories": [
