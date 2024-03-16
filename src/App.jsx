@@ -11,6 +11,7 @@ import NewProject from './components/pages/NewProject';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Projects from './components/pages/Projects';
+import Project from './components/pages/Project';
 
 function App() {
   return (
@@ -18,10 +19,11 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/projects" element={<Projects />} />
-        <Route exact path="/company" element={<Company />} />
-        <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/newproject" element={<NewProject />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/company" element={<Company />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/newproject" element={<NewProject />} />
+        <Route path="/project/:id" element={<Project />} />
       </Routes>
       <Footer />
     </BrowserRouter>
